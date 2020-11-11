@@ -3,7 +3,7 @@ Title: Report
 Description: The course report page
 ---
 
-Redovisningssida för design
+My reports for this course:
 ==================
 
 * [kmom01](report/kmom01)
