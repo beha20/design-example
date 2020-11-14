@@ -1,5 +1,7 @@
+$base-color: #098;
 @import '../../node_modules/normalize.css/normalize';
 @import '../../shared/fontawesome/scss/fontawesome';
+@import 'old';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
@@ -7,17 +9,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-@import 'old';
 
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans', sans-serif;
-}

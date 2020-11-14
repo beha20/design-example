@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6495,6 +6496,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #000000;
 }
 
 .main {
@@ -6526,7 +6528,7 @@ body {
 
 /*** BASIC LAYOUT: HEADER ***/
 .header {
-  background: #fff;
+  background: #BD262C;
 }
 
 .title, .logo {
@@ -6536,7 +6538,7 @@ body {
 
 .title * {
   margin: 0;
-  color: #111;
+  color: #fff;
 }
 
 .title p {
@@ -6583,15 +6585,15 @@ body {
 }
 
 .nav a, .nav-toggle {
-  color: #333;
+  color: #fff;
 }
 
 .nav .active a, .nav a:hover, .nav-toggle:hover {
-  color: #3b440d;
+  color: #fff;
 }
 
 .nav a:hover, .nav-toggle:hover {
-  color: #3b440d;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -6612,7 +6614,7 @@ body {
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
-  background: black;
+  background: #BD262C;
   color: #c0c0c0;
 }
 
@@ -6704,7 +6706,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #444;
+  color: #fff;
 }
 
 p, td, th, li, dd {
@@ -6718,19 +6720,19 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-  color: #2eae9b;
+  color: #fff;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
-  color: #444;
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #333;
+  color: #fff;
 }
 
 h1 {
@@ -7026,6 +7028,14 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
 }
