@@ -11,4 +11,10 @@ Social:
     - title: My Facebook
       url: https://www.facebook.com/ben.haj13/
       icon: fab fa-facebook
+    - title: Light Mode
+      url: ?action=theme
+      icon: fas fa-cloud-sun
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

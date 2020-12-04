@@ -17,7 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "light" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-light.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -66,7 +70,7 @@
     <div class="main" role="main">
         <div class="container">
             {{ content }}
-        </div>
+            </div>
     </div>
     <div class="footer">
         <div class="container">

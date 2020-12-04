@@ -1,11 +1,22 @@
 ---
 Title: Kmom01
 Description: My report for Kmom01
+Template: kmom
 ---
 
 Kursmoment 1
 ==================
 
+<div class="sidenavbar">
+<a href="kmom02">Kmom02</a><br>
+<a href="kmom03">Kmom03</a><br>
+<a href="kmom04">Kmom04</a><br>
+<a href="kmom05">Kmom05</a><br>
+<a href="kmom06">Kmom06</a><br>
+<a href="kmom10">Projekt</a><br>
+</div>
+
+<div class="kmoms">
 <p>Har du jobbat med ramverk eller andra CMS:er tidigare?
 Allt som jag jobadde med CMS var i denna kursen, jag är nybörjare som man kan säga htmlphp var min första gången att jag hade nån "connection" med CMS och det är väldigt svårt att säga något smart,eller att jag kan prata om skillnaderna.</p>
 
@@ -22,4 +33,7 @@ Det gick bra i början sedan hade jag lite problem med att ladda upp bilden, i s
 
 <p>Vilken är din TIL för detta kmom?
 Min TIL är att jag har fått reda på GIT och GIT-hub,vad är vad och så vidare.Sedan det som jag tycker om i design, och det är väldigt coolt.</p>
+    </div>
+
+
 

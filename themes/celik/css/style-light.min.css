@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6496,7 +6496,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #fff;
 }
 
 .main {
@@ -6528,7 +6528,7 @@ body {
 
 /*** BASIC LAYOUT: HEADER ***/
 .header {
-  background: #8d8d8d;
+  background: #fff;
   max-height: 42em;
 }
 
@@ -6539,7 +6539,7 @@ body {
 
 .title * {
   margin: 0;
-  color: #fff;
+  color: rgb(141,141,141);
 }
 
 .title p {
@@ -6557,6 +6557,7 @@ body {
 
 .logo img {
   min-width: 4.8em;
+  filter: grayscale(80%);
 }
 
 .logo + .title h1 {
@@ -6586,15 +6587,15 @@ body {
 }
 
 .nav a, .nav-toggle {
-  color: #fff;
+  color: #4dac4b;
 }
 
 .nav .active a, .nav a:hover, .nav-toggle:hover {
-  color: #fff;
+  color: #4dac4b;
 }
 
 .nav a:hover, .nav-toggle:hover {
-  color: #fff;
+  color:  rgb(141,141,141);
   text-decoration: underline;
 }
 
@@ -6612,13 +6613,14 @@ body {
 .flash-img {
   width: 100%;
   border-radius: 30px;
-  border: 3px solid #ECA934;
+  border: 3px solid rgb(141, 141, 141);
+  filter: hue-rotate(90deg);
 }
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
-  background: #000000;
-  color: #fff;
+  background: #fff;
+  color: rgb(141,141,141);
 }
 
 .footer a {
@@ -6626,7 +6628,7 @@ body {
 }
 
 .footer a:hover {
-  color: #fff;
+  color:  rgb(141,141,141);;
 }
 
 .footer p {
@@ -6652,6 +6654,7 @@ body {
 
   .logo {
     height: 8.8em;
+    filter: hue-rotate(90deg);
   }
 
   .nav {
@@ -6709,7 +6712,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #fff;
+  color: rgb(0, 100, 0);
 }
 
 p, td, th, li, dd {
@@ -6723,19 +6726,19 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-  color: #fff;
+  color: rgb(0, 0, 0,);
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
-  color: #fff;
+  color: rgb(red, green, blue);
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #fff;
+  color: rgb(141,141,141);
 }
 
 h1 {
@@ -6769,9 +6772,9 @@ img {
 }
 
 hr {
-  border: 0.15em solid #f5f5f5;
+  border: 0.15em solid rgb(141,141,141);
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: rgb(141,141,141);
 }
 
 abbr {
@@ -6785,12 +6788,13 @@ abbr {
 
 .my-pic {
   border-radius: 30px;
-  border: 2px solid #ECA934;
+  border: 2px solid #fff;
+  filter: grayscale(80%);
 }
 
 .screenshots:hover {
-  color: rgb(50, 16, 201);
-  text-decoration: underline;
+    color: rgb(50, 16, 201);
+    text-decoration: underline;
 }
 
 .align-center {
@@ -6872,12 +6876,12 @@ td, th {
 th {
   font-weight: bold;
   text-align: center;
-  background: #f5f5f5;
+  background: rgb(141,141,141);;
   color: #333;
 }
 
 td, th {
-  border: 1px solid #ccc;
+  border: 1px solid rgb(141,141,141);
 }
 
 tr:not(:last-child) td, tr:not(:last-child) th {
@@ -7068,12 +7072,12 @@ h6 {
 
 .kmom-box {
   grid-column: span 1;
-  border: 2px solid #ECA934;
+  border: 2px solid rgb(141,141,141);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3em;
-  background-color: #000000;
+  background-color: rgb(0, 0, 0,);
   border-radius: 35px;
 }
 
@@ -7093,33 +7097,32 @@ h6 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.kmom4 {
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 30px;
+  border: 3px solid  rgb(141,141,141);
+}
+
 .kmom-box a {
   text-decoration: underline;
 }
 
 a,h2,h3:hover {
-  color: #bd262c;
+  color: rgb(141,141,141);
 }
 
 .kmoms {
   grid-column: span 1;
-  border: 2px solid #ECA934;
+  border: 2px solid rgb(0, 0, 0,);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3em;
-  background-color: #000000;
+  background-color:rgb(141,141,141);
   border-radius: 35px;
   
 }
-
-.kmom4 {
-  padding: 2em;
-  margin-bottom: 2em;
-  border-radius: 30px;
-  border: 3px solid #ECA934;
-}
-
 .kmom-box.project {
   grid-column: span 3;
   padding: 2em;

@@ -1,13 +1,13 @@
 @import 'common';
 
 
-$font-color: rgb(233, 233, 2);
+$font-color: rgb(141, 141, 141);
 $accent-color: rgba(217, 100, 70, 100);
 
 @import 'header';
 @import 'footer';
 @import 'report';
-@import 'gallery';
+@import 'variables-light';
 
 * {
     box-sizing: border-box;
