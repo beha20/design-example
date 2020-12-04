@@ -7104,6 +7104,34 @@ h6 {
   border: 3px solid  rgb(141,141,141);
 }
 
+.gallery {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .kmom-box a {
   text-decoration: underline;
 }
@@ -7129,6 +7157,9 @@ a,h2,h3:hover {
 }
 
 @media (max-width: 767px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
     .kmoms,
     .landingpage h1,
     .kmom-box,
