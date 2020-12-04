@@ -28,7 +28,7 @@ Report
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom05"><h2>Kmom05</h2></a>
+    <a href="kmom05"><h2>Kmom05</h2></a>
     <p>Wise thoughts</p>
 </div>
 
