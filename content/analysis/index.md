@@ -1,25 +1,25 @@
 ---
-Title: Analys
+Title: Analysis
 Description: The course report page
 Template: report
 ---
 
-Reports 04/05/06
+Analysis
 ==================
 
 <div class="kmom-box">
-    <a href="report/kmom04"><h2>Kmom04</h2></a>
-    <p>Wise thoughts</p>
+    <a href="report/analysis"><h2>Analysis</h2></a>
+    <p>Analysing Colors</p>
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom05"><h2>Kmom05</h2></a>
-    <p>Wise thoughts</p>
+    <a href="load"><h2>Analysis</h2></a>
+    <p>Page speed</p>
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom06"><h2>Kmom06</h2></a>
-    <p>Wise thoughts</p>
+    <a href="report/kmom06"><h2>Analysis</h2></a>
+    <p>Design princples</p>
 </div>
 
 
