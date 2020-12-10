@@ -18,7 +18,7 @@ Analysis
 </div>
 
 <div class="kmom-box">
-    <a href="report/kmom06"><h2>Analysis</h2></a>
+    <a href="analysis/03_design_principles"><h2>Analysis</h2></a>
     <p>Design princples</p>
 </div>
 
