@@ -63,17 +63,17 @@
                 </div>
             </div>
             <div class="flash-region">
+            </div>
               <img class="flash-img" src="{{ base_url }}/image/mural1.jpg?sc=banner1&a=25,0,25,0">
             </div>
-          </div>  
         </div>
-        <div class="main" role="main">
-            <div class="kmommenu">
-                {{ content }}
+    <div class="main" role="main">
+        <div class="container">
+            {{ content }}
             </div>
-        </div>
-        <div class="footer">
-        <div class="kmommenu">
+    </div>
+    <div class="footer">
+        <div class="container">
             <div class="social">
                 <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
                 {% for social in pages["_meta"].meta.social %}

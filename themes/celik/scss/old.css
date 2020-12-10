@@ -422,7 +422,6 @@ template {
   margin-left: 2.5em;
   padding-left: 0;
 }
-
 .fa-ul > li {
   position: relative;
 }
@@ -456,7 +455,6 @@ template {
 .fab.fa-pull-left {
   margin-right: 0.3em;
 }
-
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -481,6 +479,7 @@ template {
     transform: rotate(360deg);
   }
 }
+
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
@@ -6587,7 +6586,7 @@ body {
   border-radius: 30px;
   border: 3px solid #ECA934;
   margin-bottom: 0.1em;
-}
+} 
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
@@ -7029,6 +7028,7 @@ h6 {
 }
 
 /* Report */
+
 .landingpage {
   display: grid;
   justify-content: center;
@@ -7053,25 +7053,25 @@ h6 {
 
 .sidenavbar {
   grid-column: 1/1;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  padding-bottom: 2em;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding-bottom: 2em;
 }
 
 .kmommenu {
   display: grid;
-  justify-items: center;
-  gap: 1em;
-  row-gap: 2em;
-  column-gap: 2em;
-  grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+    row-gap: 2em;
+    column-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .kmom-box a {
   text-decoration: underline;
 }
 
-a, h2, h3:hover {
+a,h2,h3:hover {
   color: #bd262c;
 }
 
@@ -7084,6 +7084,7 @@ a, h2, h3:hover {
   padding: 3em;
   background-color: #ECA934;
   border-radius: 35px;
+  
 }
 
 .kmom4 {
@@ -7117,11 +7118,11 @@ a, h2, h3:hover {
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .kmom-box.project {
@@ -7130,15 +7131,14 @@ a, h2, h3:hover {
 }
 
 @media (max-width: 767px) {
-  .gallery {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .kmoms,
-.landingpage h1,
-.kmom-box,
-.kmom-box.project {
-    grid-column: span 4;
-  }
+    .gallery {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .kmoms,
+    .landingpage h1,
+    .kmom-box,
+    .kmom-box.project {
+      grid-column: span 4;
+    }
 }
