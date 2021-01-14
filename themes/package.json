@@ -5,14 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass celik/scss/style.scss:celik/css/style.css celik/scss/style-dark.scss:celik/css/style-dark.css --no-source-map --watch",
-    "watch-min": "sass celik/scss/style.scss:celik/css/style.min.css celik/scss/style-dark.scss:celik/css/style-dark.min.css --no-source-map --watch --style compressed",
-    "style": "npm run style-dark && npm run style-light",
-    "style-min": "npm run style-dark-min && npm run style-light-min",
-    "style-dark": "sass celik/scss/style.scss celik/css/style.css --no-source-map",
-    "style-dark-min": "sass celik/scss/style.scss celik/css/style.min.css --no-source-map --style compressed",
-    "style-light": "sass celik/scss/style.scss celik/css/style-light.css --no-source-map",
-    "style-light-min": "sass celik/scss/style.scss celik/css/style-light.min.css --no-source-map --style compressed"
+    "watch": "sass kund/scss/style.scss:kund/css/style.css kund/scss/style-dark.scss:kund/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass kund/scss/style.scss:kund/css/style.min.css kund/scss/style-dark.scss:kund/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "sass kund/scss/style.scss kund/css/style.css --no-source-map",
+    "style-min": "sass kund/scss/style.scss kund/css/style.min.css --no-source-map --style compressed"
     
   },
   "keywords": [],
